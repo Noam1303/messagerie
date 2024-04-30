@@ -11,7 +11,7 @@ const bcrypt = require('bcryptjs');
 
 app.use(cors())
 
-const port = process.env.PORT || 5300;
+const port = process.env.PORT || 4000;
 
 const io = socket(
   app.listen(port, () => {
