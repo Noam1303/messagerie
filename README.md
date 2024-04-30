@@ -1,3 +1,2 @@
 # messagerie
-npm run start on client
-npm run dev on server
+cd client || npm run start || cd ../server || npm run dev
