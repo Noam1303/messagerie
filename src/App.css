@@ -1,0 +1,136 @@
+.champ {
+    margin-bottom: 20px;
+}
+
+div {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+b {
+    font-style: italic;
+}
+
+i {
+    display: grid;
+    place-items: center; /* Alignement au centre */
+    height: 10vh; 
+    font-size: 13px;
+}
+
+/* Centrage pour tous les éléments */
+.Main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    position: relative;
+}
+
+h1, .searchbar, .logout, .searchbar_name {
+    margin-top: 30px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.searchbar{
+    margin-top: 30px;
+    margin-bottom: 10px; /* Espacement en haut */
+}
+
+.logout {
+    margin-top: -100px;
+    margin-bottom: 10px; 
+}
+
+/* Positionnement relatif pour .searchbar_name */
+.searchbar_name {
+    bottom: 0px; /* Position de départ */
+    margin-bottom: 00px; /* Espacement en bas */
+    margin-top: 10px;
+}
+
+.searchbar_name_user {
+    margin-bottom: 10px; /* Espacement en bas */
+    margin-top: 10px;
+    display: flex;
+    width: 13vh;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.mp {
+    margin-left: 10px;
+}
+
+.container {
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+    position:relative;
+}
+
+.form-group {
+    margin-top: 10px;
+    width: 20vh;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.message-group {
+    display: grid;
+    justify-content: center; /* Alignement horizontal au centre */
+    align-items: center; /* Alignement vertical au centre */
+    height: 60vh;
+}
+
+label {
+    display: block;
+    position: relative;
+    overflow-y:auto ;
+    width: 60vh;
+    height: 40vh;
+}
+
+    label::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+    label::-webkit-scrollbar-thumb {
+        background-color: rgb(175, 175, 175); /* Couleur de la poignée de défilement */
+    }
+    
+    label::-webkit-scrollbar-track {
+        background-color: rgb(224, 224, 224); /* Couleur de la piste de défilement */
+    }
+
+.message {
+    text-align: center;
+}
+
+.button-group {
+    margin-top: 20px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    top: 0%;
+}
+
+.name1 {
+    color: rgb(63, 161, 33);
+}
+
+.name2 {
+    color : rgb(182, 32, 32)
+}
