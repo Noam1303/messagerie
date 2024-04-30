@@ -11,9 +11,11 @@ const bcrypt = require('bcryptjs');
 
 app.use(cors())
 
+const port = process.env.PORT || 5300;
+
 const io = socket(
-  app.listen(5300, () => {
-      console.log('Server is running on port 5300')
+  app.listen(port, () => {
+      console.log(`Server is running on port ${port}`)
   }), {
       cors: {
           origin: 'http://localhost:3000',
